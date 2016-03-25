@@ -16,3 +16,13 @@ Version: Mars Release (4.5.0)
 Build id: 20150621-1200
 About Java:
 javac 1.7.0_79
+
+//***************************************************************************************************//
+Instructions on running ISR2
+Step 1. Create directory
+ cd /home/hadoop/isr/isrAssignment1/ISR1/src Step 2.Compile java files in Indexing folder.
+ javac Indexing/PreProcessedCorpusReader.java
+ javac Indexing/MyIndexWriter.java
+ javac Indexing/MyIndexReader.java
+ javac HW2Main.java
+ java HW2Main
